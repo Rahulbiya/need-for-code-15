@@ -1,7 +1,118 @@
-.contact-details{
-
-}
+body{]
+background-color: ;}
+.contact-details,
 .contact-form{
     grid-column: span 6;
     
+}
+.contact .sectiom-title{
+    text-align: left;
+    margin-bottom:15px ;
+}
+.contact-details .text-1{
+    margin-bottom: 40 px;
+}
+.contact-info-item{
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.contact-info-item i{
+    position:absolute;
+    left: 0;
+    top: 7px;
+    font-size: 14px;
+}
+.contact-details .social-links{
+    margin-top:25px;
+}
+.contact-details .social-links a{
+    height: 35px;
+    width: 35px;
+    color: var(--main-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition:  color 0.3s ease;
+    position: relative;
+}
+.contact-details .social-links a:hover{
+    color: var(--white)
+}
+.contact-details .social-links a::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+.contact-details .social-links a:hover::before{
+    transform: scale(1);
+}
+.contact-form::before,
+.contact-form::after{
+    content: '';
+    position: absolute;
+    transform: rotate(10deg);
+}
+.contact-form::before{
+    right: -4px;
+    top: 0px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--light-red);
+    z-index: -1;
+
+}
+.contact-form::after{
+    left: -15px;
+    bottom: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: var(--main-color);
+}
+.contact-form .icon-box{
+    width: 120px;
+    animation: moveX 4s linear infinite;
+}
+.contact-box{
+    background-color: var(--white-alpha-40);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.input-box{
+    margin-bottom: 20px;
+}
+.input-control::placeholder{
+    color: var(--black-70);
+}
+.input-control{
+    display: block;
+    width: 100%;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-color-1);
+    font-size: 16px;
+    font-family: inherit;
+    color: var(--black-90);
+}
+.input-control:focus{
+    outline: none;
+
+}
+text.input-control{
+    height:120px;
+    resize: none;
 }
