@@ -641,9 +641,9 @@ pre code {
 }
 
 .row-cols-5 > * {
-  -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
-  max-width: 20%;
+  -ms-flex: 0 0 10%;
+  flex: 0 0 10%;
+  max-width: 10%;
 }
 
 .row-cols-6 > * {
@@ -879,9 +879,9 @@ pre code {
     max-width: 25%;
   }
   .row-cols-sm-5 > * {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
   }
   .row-cols-sm-6 > * {
     -ms-flex: 0 0 16.666667%;
@@ -1081,9 +1081,9 @@ pre code {
     max-width: 25%;
   }
   .row-cols-md-5 > * {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
   }
   .row-cols-md-6 > * {
     -ms-flex: 0 0 16.666667%;
@@ -1283,9 +1283,9 @@ pre code {
     max-width: 25%;
   }
   .row-cols-lg-5 > * {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
   }
   .row-cols-lg-6 > * {
     -ms-flex: 0 0 16.666667%;
@@ -1485,9 +1485,9 @@ pre code {
     max-width: 25%;
   }
   .row-cols-xl-5 > * {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
   }
   .row-cols-xl-6 > * {
     -ms-flex: 0 0 16.666667%;
