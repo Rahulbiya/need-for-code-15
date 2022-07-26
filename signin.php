@@ -86,7 +86,6 @@ mysqli_close($conn);
 }
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,19 +93,18 @@ mysqli_close($conn);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="signupFrm">
-        <form action="" class="form" method = "post">
+        <form action="" class="form" method = "POST">
           <h1 class="title">Sign up</h1>
     
           <div class="inputContainer">
             <input type="text" class="input" name="email"placeholder="Email">
             <label for="" class="label">Email</label>    
           </div>
-          
     
           <div class="inputContainer">
             <input type="text" class="input" name="username" placeholder="Username">
@@ -124,7 +122,10 @@ mysqli_close($conn);
             <label for="" class="label">Confirm Password</label>
           </div>
     
-          <input type="submit" class="btn btn-primary" value="Sign up">
+          <input type="submit" class="submitBtn" value="Sign up">
+          <div class="container signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+          </div>
         </form>
       </div>
     
