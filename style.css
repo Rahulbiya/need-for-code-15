@@ -71,7 +71,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 0;
   }
   
   .submitBtn:hover {
