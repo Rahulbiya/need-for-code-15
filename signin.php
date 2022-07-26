@@ -124,7 +124,7 @@ mysqli_close($conn);
     
           <input type="submit" class="submitBtn" value="Sign up">
           <div class="container signin">
-            <p>Already have an account? <a href="#">Sign in</a>.</p>
+            <p>Already have an account? <a href="sign.php">Sign in</a>.</p>
           </div>
         </form>
       </div>
