@@ -3,11 +3,6 @@
 session_start();
 
 // check if the user is already logged in
-if(isset($_SESSION['username']))
-{
-    header("location: welcome.php");
-    exit;
-}
 require_once "config.php";
 
 $username = $password = "";
