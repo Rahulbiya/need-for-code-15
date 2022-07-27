@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,118 +11,120 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <title>pet-finder homepage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
 
     <!-- ChatBot -->
-<link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.convform.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.convform.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
 </head>
-<body >
-  <!-- ChatBot -->
-<div class="chat_icon">
-	<i class="fa fa-comments" aria-hidden="true"></i>
-</div>
 
-<div class="chat_box">
-	<div class="my-conv-form-wrapper">
-		<form action="" method="GET" class="hidden">
-	  
-	  
-      <select data-conv-question="Welcome to The URBAN PET How can I help you" name="category">
+<body>
+    <!-- ChatBot -->
+    <div class="chat_icon">
+        <i class="fa fa-comments" aria-hidden="true"></i>
+    </div>
+
+    <div class="chat_box">
+        <div class="my-conv-form-wrapper">
+            <form action="" method="GET" class="hidden">
+
+
+                <select data-conv-question="Welcome to The URBAN PET How can I help you" name="category">
         <option value="Want to learn about dog">Want to learn about dog?</option>
         <option value="Want to learn about cat">Want to learn about cat?</option>
 
       </select>
 
-      <div data-conv-fork="category">
-			<select data-conv-question="Want to learn about dog">
+                <div data-conv-fork="category">
+                    <select data-conv-question="Want to learn about dog">
 				<option value="Kanni" data-callback="Kanni">Kanni</option>	
 				<option value="Aspin" data-callback="Aspin">Aspin</option>
 				<option value="Bakarwal" data-callback="Bakarwal">Bakarwal</option>
 				
 		</select>
-        <div data-conv-case="Want to learn about cat">
-			<select data-conv-question="Here are the Breeds of the cat" >
+                    <div data-conv-case="Want to learn about cat">
+                        <select data-conv-question="Here are the Breeds of the cat">
 				<option value="Bombay" data-callback="Bombay">Bombay</option>
 				<option value="Bengal" data-callback="Bengal">Bengal</option>
 				<option value="Persain" data-callback="Persain">persain</option>
-				</select> 
-        </div>
-      </div>
-	  
+				</select>
+                    </div>
+                </div>
 
-      
-  	</form>
-	</div>
-</div>
-<!-- ChatBot end -->
+
+
+            </form>
+        </div>
+    </div>
+    <!-- ChatBot end -->
 
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #FF7270;">
         <a class="navbar-brand  mb-0 h1" href="#">
-            <img src="dog_symbol.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            Pet-Finder
-          </a>
+            <img src="dog_symbol.png" width="30" height="30" class="d-inline-block align-top" alt=""> Pet-Finder
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="etailsdoctor.html">contact a doctor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="map.html">find a pet</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="etailsdoctor.html">contact a doctor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">find a pet</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                 Dog-Breed
               </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="dogbreed1.html">kanni</a>
-                <a class="dropdown-item" href="dogbreed2.html">aspin</a>
-                <a class="dropdown-item" href="dogbreed3.html">Bakharwal</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="dogbreed1.html">kanni</a>
+                        <a class="dropdown-item" href="dogbreed2.html">aspin</a>
+                        <a class="dropdown-item" href="dogbreed3.html">Bakharwal</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                   Cat-Breed
                 </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="catbreed1.html">Bombay</a>
-                  <a class="dropdown-item" href="catbreed2.html">Bengal</a>
-                  <a class="dropdown-item" href="catbreed3.html">Persian</a>
-                </div>
-              </li>
-          </ul>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="catbreed1.html">Bombay</a>
+                        <a class="dropdown-item" href="catbreed2.html">Bengal</a>
+                        <a class="dropdown-item" href="catbreed3.html">Persian</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
-      <!--carousel-->
-      <br>
-      <br>
-      <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" style="position: relative; margin-left: 2%; margin-right: 2%; ">
+    <!--carousel-->
+    <br>
+    <br>
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" style="position: relative; margin-left: 2%; margin-right: 2%; ">
         <div class="carousel-inner" style="padding: 10%; padding-top: 0%; padding-bottom: 0%;">
-          <div class="carousel-item active" data-interval="1800">
-            <img src="1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-interval="1800">
-            <img src="2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-interval="1800">
-            <img src="3.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-interval="1800" >
-            <img src="4.png" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active" data-interval="1800">
+                <img src="1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="1800">
+                <img src="2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="1800">
+                <img src="3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="1800">
+                <img src="4.png" class="d-block w-100" alt="...">
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -131,17 +134,40 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </button>
-      </div>
-      <br>
-      <br>
-      <br>
-      <h1 style="font-family: serif; color:#FF7270; position: relative; margin-left: 20% ;"> Welcome to the The Urban Pet</h1>
-      
-      <!--footer-->
-      <div style="background: linear-gradient(90deg, rgba(255,114,112,1) 32%, rgba(250,235,232,1) 100%);height: 20rem;" >
+    </div>
+    <br>
+
+    <h1 style="font-family: serif; color:#FF7270; position: relative; margin-left: 34% ; width: 50%;"> Welcome to the The Urban Pet</h1>
+
+    <div>
+        <p style="font-family:serif; font-size: larger; position: relative; margin-left: 10%;margin-right: 10%;">The urban pet is organization that captures and store images of animals who need home. The urban also track and store the location of that animal that needs shelter. we use maps to provide existing animal shelters.The urban Pet creates a platform
+            between people and organisation to provide shelter to the stray animals. we communicate with various social account like instagram,facebook,whatsapp and telegram to provide social mobility and communication to save stray animals.
+        </p>
+    </div>
+    <div style="position: relative; margin-left: 8.5%; margin-top: 1%;margin-bottom: 2%;">
+        <img src="banner.png.png" alt="">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="t1.png" alt="testimonial" style="box-shadow: 10px 10px 5px lightslategray;">
+            </div>
+            <div class="col-sm">
+                <img src="t2.png" alt="" style="box-shadow: 10px 10px 5px lightslategray;">
+            </div>
+            <div class="col-sm">
+                <img src="t3.png" alt="" style="box-shadow: 10px 10px 5px lightslategray;">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--footer-->
+    <div style="background: linear-gradient(90deg, rgba(255,114,112,1) 32%, rgba(250,235,232,1) 100%);height: 20rem;">
 
         <div style="position: relative; width: 30%; left: 20%;">
-            <ul style="list-style-type: none; font-family: sans-serif";>
+            <ul style="list-style-type: none; font-family: sans-serif" ;>
                 <li><a href="donation.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Donations</a></li>
                 <br>
                 <li><a href="https://forms.gle/ZHgmhT6mbz1Y35CJ8" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Adoptions</a></li>
@@ -153,25 +179,26 @@
                 <li><a href="https://www.facebook.com/The-Urban-Pet-103635712444270" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">facebook community</a></li>
             </ul>
         </div>
-        
+
         <div style="position: relative; width: 30%; left: 50%; bottom: 14rem;">
-        <ul style="list-style-type: none;font-family: sans-serif ;">
-            <li><a href="https://forms.gle/ZZumcNR3JT7QD3yS8" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">work with us</a></li>
-            <br>
-            <li><a href="https://forms.gle/opf8zvxoMxZbyxe29" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">suggestions</a></li>
-            <br>
-            <li><a href="mailto: @theurbanpetcorp@gmail.com" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">reach us theurbanpetcorp@gmail.com</a></li>
-            <br>
-            <li><a href="https://chat.whatsapp.com/FoxPd2HSkKOAxGPLn0EaxO" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">join whatsapp group</a></li>
-            <br>
-            <li><a href="https://t.me/+D0-jDYdmnNphNjA1" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">join telegram community</a></li>
-        </ul>
-        
+            <ul style="list-style-type: none;font-family: sans-serif ;">
+                <li><a href="https://forms.gle/ZZumcNR3JT7QD3yS8" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">work with us</a></li>
+                <br>
+                <li><a href="https://forms.gle/opf8zvxoMxZbyxe29" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">suggestions</a></li>
+                <br>
+                <li><a href="mailto: @theurbanpetcorp@gmail.com" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">reach us theurbanpetcorp@gmail.com</a></li>
+                <br>
+                <li><a href="https://chat.whatsapp.com/FoxPd2HSkKOAxGPLn0EaxO" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">join whatsapp group</a></li>
+                <br>
+                <li><a href="https://t.me/+D0-jDYdmnNphNjA1" style="color: white;text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">join telegram community</a></li>
+            </ul>
+
         </div>
-        
-        
-            </div>
-      
-       
+
+
+    </div>
+
+
 </body>
+
 </html>
