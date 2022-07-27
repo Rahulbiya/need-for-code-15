@@ -9,8 +9,58 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <title>pet-finder homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!-- ChatBot -->
+<link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.convform.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
 </head>
-<body>
+<body >
+  <!-- ChatBot -->
+<div class="chat_icon">
+	<i class="fa fa-comments" aria-hidden="true"></i>
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+	  
+	  
+      <select data-conv-question="Welcome to The URBAN PET How can I help you" name="category">
+        <option value="Want to learn about dog">Want to learn about dog?</option>
+        <option value="Want to learn about cat">Want to learn about cat?</option>
+
+      </select>
+
+      <div data-conv-fork="category">
+			<select data-conv-question="Want to learn about dog">
+				<option value="Kanni" data-callback="Kanni">Kanni</option>	
+				<option value="Aspin" data-callback="Aspin">Aspin</option>
+				<option value="Bakarwal" data-callback="Bakarwal">Bakarwal</option>
+				
+		</select>
+        <div data-conv-case="Want to learn about cat">
+			<select data-conv-question="Here are the Breeds of the cat" >
+				<option value="Bombay" data-callback="Bombay">Bombay</option>
+				<option value="Bengal" data-callback="Bengal">Bengal</option>
+				<option value="Persain" data-callback="Persain">persain</option>
+				</select> 
+        </div>
+      </div>
+	  
+
+      
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #FF7270;">
         <a class="navbar-brand  mb-0 h1" href="#">
@@ -26,10 +76,10 @@
               <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="detailsdoctor.html">contact a doctor</a>
+              <a class="nav-link" href="etailsdoctor.html">contact a doctor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">find</a>
+              <a class="nav-link" href="map.html">find a pet</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
